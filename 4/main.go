@@ -10,7 +10,7 @@ func main() {
 }
 
 func multTable(n int) {
-	// Вычесления для формирования строк в зависимости от разряда n
+	// Вычисления для формирования строк в зависимости от разряда n
 	gradeN := int(math.Floor(math.Log10(float64(n))) + 1)
 	gradeN2 := int(math.Floor(math.Log10(float64(n*n))) + 1)
 	formatMult := fmt.Sprintf("%%%dd ", gradeN)
