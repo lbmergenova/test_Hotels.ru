@@ -50,6 +50,9 @@ func divisors(n int) []int {
 }
 
 func minInts(arr []int) int {
+	if len(arr) == 0 {
+		return 0
+	}
 	min := arr[0]
 	for _, v := range arr {
 		if v < min {
